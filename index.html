@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Informatika10.edu</title>
+    <link rel="icon" href="img/logo01.png" type="image/x-icon" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <!-- featherIcons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- mystyle -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar">
+      <div class="logo">
+        <div class="img-logo"><img src="img/logo02.png" alt="" /></div>
+        <div class="text-logo">
+          <a href="#" class="navbar-logo">Informatika<span>10.Edu</span></a>
+        </div>
+      </div>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Modul</a>
+        <a href="#products">Tim Kami</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <!-- <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a> -->
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>INFORMATIKA <span>SMKN 1 SAWAN</span></h1>
+        <p>Untuk Kelas X</p>
+        <a href="#menu" class="cta">Baca Modul</a>
+      </main>
+    </section>
+    <!-- hero section end -->
+
+    <!-- about start -->
+    <section id="about" class="about">
+      <h2><span> Tentang </span> Kami</h2>
+      <div class="row">
+        <div class="about-img">
+          <div id="slider">
+            <div class="slide">
+              <img src="img/dokumentasi/01.png" alt="Slide 1" />
+            </div>
+            <div class="slide">
+              <img src="img/dokumentasi/02.png" alt="Slide 2" />
+            </div>
+            <div class="slide">
+              <img src="img/dokumentasi/03.png" alt="Slide 3" />
+            </div>
+            <div class="slide">
+              <img src="img/dokumentasi/04.png" alt="Slide 4" />
+            </div>
+            <div class="slide">
+              <img src="img/dokumentasi/05.png" alt="Slide 4" />
+            </div>
+            <div class="slide">
+              <img src="img/dokumentasi/06.png" alt="Slide 4" />
+            </div>
+            <div class="slide">
+              <img src="img/dokumentasi/07.png" alt="Slide 4" />
+            </div>
+            <div class="slide">
+              <img src="img/dokumentasi/08.png" alt="Slide 4" />
+            </div>
+            <div class="slide">
+              <img src="img/dokumentasi/09.png" alt="Slide 4" />
+            </div>
+            <div class="slide">
+              <img src="img/dokumentasi/10.png" alt="Slide 4" />
+            </div>
+          </div>
+          <script>
+            let slider = document.getElementById("slider");
+            let slides = slider.querySelectorAll(".slide");
+            let currentSlide = 0;
+
+            setInterval(function () {
+              slides[currentSlide].style.display = "none";
+              currentSlide = (currentSlide + 1) % slides.length;
+              slides[currentSlide].style.display = "block";
+            }, 2000);
+          </script>
+        </div>
+        <div class="content">
+          <h3>Latar Belakang Program</h3>
+          <p>
+            Desa Bengkala dikenal dengan sebutan desa inklusif kolok karena
+            memiliki sekitar 1,5% penduduk penyandang disabilitas kolok.
+            Masyarakat kolok Bengkala berkomunikasi dengan bahasa isyarat kolok.
+            Masalah yang ddihadapi oleh perempuan kolok di desa ini meliputi
+            rendahnya literasi, keterampilan life skills, kompetensi wirausaha,
+            literasi digital, apresiasi seni dan budaya, serta masalah
+            pernikahan dini dan pemahaman kesehatan reproduksi. Solusinya adalah
+            program Lentera Edukasi Life skills untuk memberdayakan perempuan
+            kolok melalui pendidikan dan pelatihan. Tujuan program ini adalah
+            meningkatkan pengetahuan, sikap, dan keterampilan perempuan kolok
+            dalam berbagai bidang, seperti literasi, kewirausahaan, literasi
+            digital, dan seni. Selain itu, program ini juga bertujuan untuk
+            meningkatkan kapasitas organisasi kemahasiswaan.
+          </p>
+          <p>
+            Pelaksanaan program menggunakan metode Participation Action Learning
+            System (PALS) dengan fokus pada penyadaran, pengkapasitasan,
+            pendampingan, dan pelembagaan. Sasaran program ini adalah perempuan
+            kolok di Desa Bengkala, yang dibagi menjadi dua kelompok belajar.
+            Program ini menghasilkan berbagai luaran, termasuk buku, kurikulum,
+            dan produk Lentera Edukasi Life skills.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
+
+    <!-- menu section -->
+    <section id="menu" class="menu">
+      <h2><span> Modul </span> Ajar</h2>
+      <p>
+        Berikut merupakan modul ajar yang dapat dipergunakan sebagai penunjang
+        terlaksananya program
+      </p>
+
+      <div class="row">
+        <div class="menu-card">
+          <a
+            href="https://drive.google.com/file/d/11zqeZARRHfJOVu4BDtTvbuyWkGlkjHbt/view?usp=sharing"
+            ><img src="img/modul/00.png" alt="Espresso" class="menu-card-img"
+          /></a>
+          <h3 class="menu-card-title">Kurikulum</h3>
+          <p class="menu-card-price">Lentera Edukasi</p>
+        </div>
+        <div class="menu-card">
+          <a
+            href="https://drive.google.com/file/d/1tsUlJcI_6_M3bIaAEb6qAu2kbiWWf-Wa/view?usp=sharing"
+            ><img src="img/modul/01.png" alt="Espresso" class="menu-card-img"
+          /></a>
+          <h3 class="menu-card-title">Modul 1</h3>
+          <p class="menu-card-price">Literasi & Numerasi</p>
+        </div>
+
+        <div class="menu-card">
+          <a
+            href="https://drive.google.com/file/d/15knCrmNvmKbcbHExMQ3i-ki70-6BiZ7R/view?usp=sharing"
+            ><img src="img/modul/02.png" alt="Espresso" class="menu-card-img"
+          /></a>
+          <h3 class="menu-card-title">Modul 2</h3>
+          <p class="menu-card-price">Kerajinan Dupa</p>
+        </div>
+
+        <div class="menu-card">
+          <a
+            href="https://drive.google.com/file/d/1RWCmBNic4VKyfmWDXWNta8h7JXRW0knw/view?usp=sharing"
+            ><img src="img/modul/03.png" alt="Espresso" class="menu-card-img"
+          /></a>
+          <h3 class="menu-card-title">Modul 3</h3>
+          <p class="menu-card-price">Kerajinan Inke</p>
+        </div>
+
+        <div class="menu-card">
+          <a href="#"
+            ><img src="img/modul/04.png" alt="Espresso" class="menu-card-img"
+          /></a>
+          <h3 class="menu-card-title">Modul 4</h3>
+          <p class="menu-card-price">Kerajinan Tenun Khas Bengkala</p>
+        </div>
+
+        <div class="menu-card">
+          <a
+            href="https://drive.google.com/file/d/1sZEZLPrnpp8YTtV0dIaikgTVCdzbXPpQ/view?usp=sharing"
+            ><img src="img/modul/05.png" alt="Espresso" class="menu-card-img"
+          /></a>
+          <h3 class="menu-card-title">Modul 5</h3>
+          <p class="menu-card-price">
+            Seni Budaya Janger Kolok dan Tari Religi
+          </p>
+        </div>
+
+        <div class="menu-card">
+          <a
+            href="https://drive.google.com/file/d/1gX6_XFhYHiPPL_6FFX8NeJdCwrIJ6JdW/view?usp=sharing"
+            ><img src="img/modul/06.png" alt="Espresso" class="menu-card-img"
+          /></a>
+          <h3 class="menu-card-title">Modul 6</h3>
+          <p class="menu-card-price">Literasi Digital</p>
+        </div>
+
+        <div class="menu-card">
+          <a
+            href="https://drive.google.com/file/d/1NKBidom5Ddby30RlsRnIQRPp_l85EPcs/view?usp=sharing"
+            ><img src="img/modul/07.png" alt="Espresso" class="menu-card-img"
+          /></a>
+          <h3 class="menu-card-title">Modul 7</h3>
+          <p class="menu-card-price">Kewirausahaan</p>
+        </div>
+
+        <div class="menu-card">
+          <a href="#"
+            ><img src="img/modul/08.png" alt="Espresso" class="menu-card-img"
+          /></a>
+          <h3 class="menu-card-title">Modul 8</h3>
+          <p class="menu-card-price">Kesehatan Reproduksi & Pernikahan Dini</p>
+        </div>
+      </div>
+    </section>
+    <!-- menu section end -->
+
+    <!-- Tim section -->
+    <section class="products" id="products">
+      <h2><span>Tim </span> Kami</h2>
+      <p>Berikut merupakan susunan anggota tim ppk ormawa kami</p>
+
+      <div class="container">
+        <input type="radio" name="dot" id="one" />
+        <input type="radio" name="dot" id="two" />
+        <div class="main-card">
+          <!-- card 1 -->
+          <div class="cards">
+            <div class="card">
+              <div class="content">
+                <div class="img">
+                  <img src="img/foto/01.png" alt="" />
+                </div>
+                <div class="details">
+                  <div class="name">I Nengah Edi Budiarta, S.Pd., M.Sc.</div>
+                  <div class="job">Dosen Pembimbing</div>
+                </div>
+                <!-- <div class="media-icons">
+                 <a href="#"><i class="fab fa-facebook-f"></i></a>
+                 <a href="#"><i class="fab fa-twitter"></i></a>
+                 <a href="#"><i class="fab fa-instagram"></i></a>
+                 <a href="#"><i class="fab fa-youtube"></i></a>
+               </div> -->
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="img">
+                  <img src="img/foto/02.png" alt="" />
+                </div>
+                <div class="details">
+                  <div class="name">I Wayan Sugihartha</div>
+                  <div class="job">Ketua Tim</div>
+                </div>
+                <!-- <div class="media-icons">
+                 <a href="#"><i class="fab fa-facebook-f"></i></a>
+                 <a href="#"><i class="fab fa-twitter"></i></a>
+                 <a href="#"><i class="fab fa-instagram"></i></a>
+                 <a href="#"><i class="fab fa-youtube"></i></a>
+               </div> -->
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="img">
+                  <img src="img/foto/03.png" alt="" />
+                </div>
+                <div class="details">
+                  <div class="name">Kadek Sinta Kristiani</div>
+                  <div class="job">Sekretaris</div>
+                </div>
+                <!-- <div class="media-icons">
+                 <a href="#"><i class="fab fa-facebook-f"></i></a>
+                 <a href="#"><i class="fab fa-twitter"></i></a>
+                 <a href="#"><i class="fab fa-instagram"></i></a>
+                 <a href="#"><i class="fab fa-youtube"></i></a>
+               </div> -->
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="img">
+                  <img src="img/foto/04.png" alt="" />
+                </div>
+                <div class="details">
+                  <div class="name">Ketut Ari Sukra Darma</div>
+                  <div class="job">Bendahara</div>
+                </div>
+                <!-- <div class="media-icons">
+                 <a href="#"><i class="fab fa-facebook-f"></i></a>
+                 <a href="#"><i class="fab fa-twitter"></i></a>
+                 <a href="#"><i class="fab fa-instagram"></i></a>
+                 <a href="#"><i class="fab fa-youtube"></i></a>
+               </div> -->
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="img">
+                  <img src="img/foto/05.png" alt="" />
+                </div>
+                <div class="details">
+                  <div class="name">Ni Made Ayu Liyoga Sari</div>
+                  <div class="job">Administrasi Hukum</div>
+                </div>
+                <!-- <div class="media-icons">
+                 <a href="#"><i class="fab fa-facebook-f"></i></a>
+                 <a href="#"><i class="fab fa-twitter"></i></a>
+                 <a href="#"><i class="fab fa-instagram"></i></a>
+                 <a href="#"><i class="fab fa-youtube"></i></a>
+               </div> -->
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="img">
+                  <img src="img/foto/06.png" alt="" />
+                </div>
+                <div class="details">
+                  <div class="name">Disma Maulidia</div>
+                  <div class="job">Administrasi Hukum</div>
+                </div>
+                <!-- <div class="media-icons">
+                 <a href="#"><i class="fab fa-facebook-f"></i></a>
+                 <a href="#"><i class="fab fa-twitter"></i></a>
+                 <a href="#"><i class="fab fa-instagram"></i></a>
+                 <a href="#"><i class="fab fa-youtube"></i></a>
+               </div> -->
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="img">
+                  <img src="img/foto/07.png" alt="" />
+                </div>
+                <div class="details">
+                  <div class="name">I Putu Bagus Kresna Dana</div>
+                  <div class="job">Administrasi Hukum</div>
+                </div>
+                <!-- <div class="media-icons">
+                 <a href="#"><i class="fab fa-facebook-f"></i></a>
+                 <a href="#"><i class="fab fa-twitter"></i></a>
+                 <a href="#"><i class="fab fa-instagram"></i></a>
+                 <a href="#"><i class="fab fa-youtube"></i></a>
+               </div> -->
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="img">
+                  <img src="img/foto/08.png" alt="" />
+                </div>
+                <div class="details">
+                  <div class="name">Ni Putu Devi Kristina</div>
+                  <div class="job">Pendidikan & Pelatihan</div>
+                </div>
+                <!-- <div class="media-icons">
+                 <a href="#"><i class="fab fa-facebook-f"></i></a>
+                 <a href="#"><i class="fab fa-twitter"></i></a>
+                 <a href="#"><i class="fab fa-instagram"></i></a>
+                 <a href="#"><i class="fab fa-youtube"></i></a>
+               </div> -->
+              </div>
+            </div>
+          </div>
+          <!-- card 1 end -->
+
+          <div class="cards">
+            <div class="card">
+              <div class="content">
+                <div class="img">
+                  <img src="img/foto/09.png" alt="" />
+                </div>
+                <div class="details">
+                  <div class="name">I Ketut Satria Ardana</div>
+                  <div class="job">Pendidikan & Pelatihan</div>
+                </div>
+                <!-- <div class="media-icons">
+                 <a href="#"><i class="fab fa-facebook-f"></i></a>
+                 <a href="#"><i class="fab fa-twitter"></i></a>
+                 <a href="#"><i class="fab fa-instagram"></i></a>
+                 <a href="#"><i class="fab fa-youtube"></i></a>
+               </div> -->
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="img">
+                  <img src="img/foto/10.png" alt="" />
+                </div>
+                <div class="details">
+                  <div class="name">Kadek Wiwin Dwipajaya Ningsih</div>
+                  <div class="job">Pendidikan & Pelatihan</div>
+                </div>
+                <!-- <div class="media-icons">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </div> -->
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="img">
+                  <img src="img/foto/11.png" alt="" />
+                </div>
+                <div class="details">
+                  <div class="name">Luh Feby Arista</div>
+                  <div class="job">Humas & Kewirausahaan</div>
+                </div>
+                <!-- <div class="media-icons">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </div> -->
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="img">
+                  <img src="img/foto/12.png" alt="" />
+                </div>
+                <div class="details">
+                  <div class="name">Desma Lora Simanjuntak</div>
+                  <div class="job">Humas & Kewirausahaan</div>
+                </div>
+                <!-- <div class="media-icons">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </div> -->
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="img">
+                  <img src="img/foto/13.png" alt="" />
+                </div>
+                <div class="details">
+                  <div class="name">I Gusti Agung Gede Bagus Agastya</div>
+                  <div class="job">Humas & Kewirausahaan</div>
+                </div>
+                <!-- <div class="media-icons">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </div> -->
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="img">
+                  <img src="img/foto/14.png" alt="" />
+                </div>
+                <div class="details">
+                  <div class="name">Putu Ayu Nita Agustini Alit Mandala</div>
+                  <div class="job">Publikasi & Dokumentasi</div>
+                </div>
+                <!-- <div class="media-icons">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </div> -->
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="img">
+                  <img src="img/foto/15.png" alt="" />
+                </div>
+                <div class="details">
+                  <div class="name">Deny Dwi Ferdiyansah</div>
+                  <div class="job">Publikasi & Dokumentasi</div>
+                </div>
+                <!-- <div class="media-icons">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </div> -->
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="img">
+                  <img src="img/foto/16.png" alt="" />
+                </div>
+                <div class="details">
+                  <div class="name">I Made Dika Permadi</div>
+                  <div class="job">Publikasi & Dokumentasi</div>
+                </div>
+                <!-- <div class="media-icons">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="button">
+          <label for="one" class="active one"></label>
+          <label for="two" class="two"></label>
+        </div>
+      </div>
+    </section>
+    <!-- Produk section end -->
+
+    <!-- contact section -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span>Kami</h2>
+      <p>Hubungi Kami Untuk Informasi Lebih Lanjut</p>
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.8413793134923!2d115.08625797334273!3d-8.117627981231378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd19b7ce2373f27%3A0x7d576277c5162b6c!2sSanggar%20Bakti%20Racana%20Jelantik-Jempiring%20Undiksha%20%2F%20Sekretariat%20UKM%20Pramuka%20RJJ%20Undiksha!5e0!3m2!1sen!2sid!4v1692372807279!5m2!1sen!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-grup">
+            <i data-feather="user"></i>
+            <p class="text">Lentera Edukasi Rjj</p>
+            <!-- <input type="text" placeholder="nama" /> -->
+          </div>
+          <div class="input-grup">
+            <i data-feather="mail"></i>
+            <p class="text">lenteraedu.rjj@gmail.com</p>
+            <!-- <input type="text" placeholder="email" /> -->
+          </div>
+          <div class="input-grup">
+            <i data-feather="phone"></i>
+            <p class="text">081 234567891</p>
+            <!-- <input type="text" placeholder="no hp" /> -->
+          </div>
+          <div class="input-grup">
+            <i data-feather="instagram"></i>
+            <p class="text">lenteraedu.rjj</p>
+            <!-- <input type="text" placeholder="no hp" /> -->
+          </div>
+          <div class="input-grup">
+            <i data-feather="youtube"></i>
+            <p class="text">Lentera Edukasi rjj</p>
+            <!-- <input type="text" placeholder="no hp" /> -->
+          </div>
+          <div class="input-grup">
+            <i data-feather="globe"></i>
+            <p class="text">lenteraedurjj.github.io</p>
+            <!-- <input type="text" placeholder="no hp" /> -->
+          </div>
+          <!-- <button class="btn">Kirim Pesan</button> -->
+        </form>
+      </div>
+    </section>
+    <!-- contact section end -->
+
+    <!-- footer -->
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/lenteraedu.rjj/"
+          ><i data-feather="instagram"></i
+        ></a>
+        <a href="https://www.youtube.com/channel/UCJrY1IQQjCL1FkEPunvVbjQ"
+          ><i data-feather="youtube"></i
+        ></a>
+        <a href="#"><i data-feather="globe"></i></a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="#">PPK Ormawa Undiksha</a>. | &copy; 2023.</p>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- featherIcons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
